@@ -1,3 +1,5 @@
+import React from "react";
+import './main-page.css'
 const MainPage = () => {
     const clientData =
         {id: 2,
