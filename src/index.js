@@ -1,10 +1,15 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import BlockStyle from "../src/blocks.js";
+import Menu from "./components/menu/menu.js";
+import MainPage from "./components/main-page/main-page";
+import Tariffs from "./components/tarrifs/tariffs";
+import clientData from "./components/main-page/main-page"
 const App = () => {
     return (
         <div>
-            <BlockStyle/>
+            <Menu/>
+            {/*<MainPage/>*/}
+            <Tariffs/>
         </div>
     );
 };
