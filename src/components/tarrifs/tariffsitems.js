@@ -10,6 +10,7 @@ const Tariffsitems = ({tariff}) => {
             <td>{name}</td>
             <td>{speed}</td>
             <td>{price}</td>
+            <td><button className="btn btn-primary" type="submit">connect</button></td>
         </tr>
     );
 };

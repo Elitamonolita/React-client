@@ -1,6 +1,5 @@
 import React from "react";
 import "./list.css"
-import tariffsitems from "./tariffsitems";
 import Tariffsitems from "./tariffsitems";
 const Tariffs = () => {
     const tariffData = [
@@ -21,6 +20,7 @@ const Tariffs = () => {
                 <th scope="col">name</th>
                 <th scope="col">Speed</th>
                 <th scope="col">Price</th>
+                <th scope="coll">connect</th>
             </tr>
             </thead>
             <tbody>{elements}</tbody>
